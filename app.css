@@ -186,3 +186,8 @@ p {
 .next {
     z-index: 999999;
 }
+
+.fp-scroll-down-arrow {
+    height: 80px;
+
+}
