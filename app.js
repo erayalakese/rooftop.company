@@ -13,3 +13,8 @@ const observer = new IntersectionObserver(entries => {
 });
 
 observer.observe(document.querySelector('.scale-up-center-wrapper'));
+
+// on click
+document.querySelector('.next').addEventListener('click', () => {
+    fullpage_api.moveSectionDown()
+});

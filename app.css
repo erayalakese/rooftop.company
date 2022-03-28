@@ -183,3 +183,6 @@ p {
     text-align: left;
     margin-left: 10px;
 }
+.next {
+    z-index: 999999;
+}
